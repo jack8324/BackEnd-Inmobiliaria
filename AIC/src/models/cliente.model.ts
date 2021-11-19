@@ -1,6 +1,6 @@
 import {Entity, model, property, belongsTo} from '@loopback/repository';
 import {Asesor} from './asesor.model';
-//sin comentario JC
+//sin comentario JCjjjj
 @model()
 export class Cliente extends Entity {
   @property({
