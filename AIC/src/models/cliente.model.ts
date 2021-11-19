@@ -1,6 +1,6 @@
 import {Entity, model, property, belongsTo} from '@loopback/repository';
 import {Asesor} from './asesor.model';
-//comentario de prueba para control de versiones....JC 19 Nov 2021
+//sin comentario JC
 @model()
 export class Cliente extends Entity {
   @property({
