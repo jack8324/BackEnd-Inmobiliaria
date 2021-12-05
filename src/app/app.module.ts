@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarraNavegacionComponent } from './ComponentesPrincipales/barra-navegacion/barra-navegacion.component';
+import { PiePaginaComponent } from './ComponentesPrincipales/pie-pagina/pie-pagina.component';
+import { InicioComponent } from './ComponentesPrincipales/inicio/inicio.component';
+import { ErrorComponent } from './ComponentesPrincipales/error/error.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarraNavegacionComponent,
+    PiePaginaComponent,
+    InicioComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
